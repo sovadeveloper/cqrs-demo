@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    password: root
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/cqrs-demo
+    driver-class-name: org.postgresql.Driver
